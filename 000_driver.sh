@@ -1,11 +1,8 @@
 #!/bin/sh 
 #-------------------------------------------
-# Kenta Kurosawa, University of Maryland : July 2022
-#
-# Main script for running cycling data assimilation experiments
-# with WRF model for DART
-#
-# (Ver.0: Created May 2009, Ryan Torn, U. Albany: WRF-DART tutorial)
+# Main driver for WRF-DART system used in filtering experiments 
+# Contributions from Joshua McCurry and Kenta Kurasawa
+# Uses namelist file - 000S_driver_settings.sh
 #-------------------------------------------
 
 set -ex
